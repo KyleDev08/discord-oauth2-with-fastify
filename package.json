@@ -1,0 +1,27 @@
+{
+  "name": "oauthdiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/session": "^8.1.0",
+    "ejs": "^3.1.6",
+    "fastify": "^3.28.0",
+    "fastify-cookie": "^5.6.0",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-passport": "^0.5.0",
+    "fastify-static": "^4.6.1",
+    "mongoose": "^6.3.0",
+    "passport-discord": "^0.1.4",
+    "point-of-view": "^5.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
