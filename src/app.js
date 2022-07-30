@@ -61,7 +61,7 @@ function isAuthorized(req, rep, next) {
 
 // Start the server
 const start = async () => {
-  await fastify.listen(process.env.PORT || 5000);
+  await fastify.listen({ host: "::", port: process.env.PORT || 5000 })
   fastify.log.info(`server listening on ${fastify.server.address().port}`);
 };
 
