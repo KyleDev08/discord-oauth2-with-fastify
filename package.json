@@ -20,7 +20,7 @@
     "mongoose": "^6.3.0",
     "passport-discord": "^0.1.4",
     "point-of-view": "^5.2.0",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
